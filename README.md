@@ -7,6 +7,7 @@ I am a year 12 student working on a project to distribute native plants. The pro
 
 <iframe src="https://trinket.io/embed/python/49d68cce93" width="100%" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+
 **Error controls
 
 Cameron came and tested my code. The code was made to generate random passwords using 4 uppercase letters, 5 lowercase letters and 2 numbers. Once the characters were chosen, it would then randomize them and print them onto the screen, with a message saying ‘this is your password.
