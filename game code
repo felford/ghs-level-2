@@ -1,7 +1,7 @@
 Let's make a game!
-	-Burger Clicker
-	-by Orteil
-	-created on 02/01/2014
+	-Plant Clicker
+	-by not Orteil
+	-created on 08/06/2021
 	-last updated on 03/01/2014
 	-version 1
 
@@ -21,34 +21,34 @@ Settings :
 	-boxes : main (resources, clickables); store (upgrades, buildings); stats (achievements)
 
 Resources :
-	*Burgers
-	-named burger|burgers
-	-displayed as %a burger%s
+	*Plants
+	-named plant|plants
+	-displayed as %a plant%s
 	-visible
 
 Clickables :
-	*MakeBurger
-	-gives 1 burgers
+	*MakePlant
+	-gives 1 plants
 	-visible
-	-gains 10% per frycook
-	-named Make burger
+	-gains 10% per gardener
+	-named Nurture plant
 	-picture : http://s21.postimg.org/y9pmxa1av/Burger.png
 
 Buildings :
-	// fry cook -> burger stand -> diner -> restaurant -> meat factory
-	*FryCook
-	-"A lazy, greasy patty-flipper.<br>Each fry cook adds <b>+10%</b> to manual burger-making."
-	-costs 15 burgers
-	-gives 0.1 burgers
-	-named fry cook|fry cooks
+	// gardener -> glass house -> garden -> forest -> ecosystem
+	*Gardener
+	-"A lazy, greasy patty-flipper.<br>Each fry cook adds <b>+10%</b> to manual plant-growing."
+	-costs 15 plants
+	-gives 0.1 plants
+	-named gardener|gardeners
 	-visible
 	-picture : http://s24.postimg.org/lqr4h4ew1/Burger_Cook.png
 
-	*BurgerStand
-	-"A small burger outlet on the edge of town."
-	-costs 100 burgers
-	-gives 0.5 burgers
-	-named burger stand|burger stands
+	*GlassHouse
+	-"A small grow room for a quaint garden."
+	-costs 100 plants
+	-gives 0.5 plants
+	-named glasshouse|glasshouse's
 	-picture : http://s29.postimg.org/xxof3pr3n/Burger_Stand.png
 
 	*Diner
